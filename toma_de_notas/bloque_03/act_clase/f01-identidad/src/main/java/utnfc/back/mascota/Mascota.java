@@ -1,4 +1,4 @@
-package main.java.utnfc.back.mascota;
+package utnfc.back.mascota;
 
 public class Mascota {
     //constructor
