@@ -22,7 +22,7 @@ public abstract class Tramo
     }
 
     private String nombre;
-    protected Tramo salida; // referencia al siguiente tramo
+    protected Tramo salida; // referencia al siguiente tramo 
 
     public Tramo(String nombre)
     {

@@ -1,4 +1,4 @@
-# Las Bolitas Viajeras
+    # Las Bolitas Viajeras
 
 Este proyecto es un ejemplo didáctico de la asignatura Backend de Aplicaciones de Ingeniería en Sistemas de Información. Nuestro objetivo no es construir una aplicación productiva: usamos un circuito de bolitas para hacer visibles la herencia, las clases abstractas, la redefinición de métodos, el despacho dinámico y el polimorfismo.
 
