@@ -1,5 +1,4 @@
 package utnfc.backend.util.generics;
-
 import java.io.Serializable;
 import java.util.AbstractList;
 import java.util.Collection;
@@ -26,7 +25,7 @@ import java.util.RandomAccess;
  * @param <E> la clase cuyos objetos serán admisibles para la lista.
  */
 public class ArrayList<E> extends AbstractList<E> 
-             implements List<E>, RandomAccess, Cloneable, Serializable
+             implements List<E>, RandomAccess, Cloneable, Serializable // esto es para que la clase sea compatible con la clase java.util.ArrayList
 {
     // el arreglo que contendrá los elementos...
     private Object[] items;
