@@ -1,0 +1,13 @@
+-- Chinook (fuente: lerocha/chinook-database) adaptado a H2
+-- 03: reinicio de identidades para que los INSERT generados no colisionen con los datos cargados
+
+ALTER TABLE Genre ALTER COLUMN GenreId RESTART WITH 26;
+ALTER TABLE MediaType ALTER COLUMN MediaTypeId RESTART WITH 6;
+ALTER TABLE Artist ALTER COLUMN ArtistId RESTART WITH 276;
+ALTER TABLE Album ALTER COLUMN AlbumId RESTART WITH 348;
+ALTER TABLE Track ALTER COLUMN TrackId RESTART WITH 3504;
+ALTER TABLE Employee ALTER COLUMN EmployeeId RESTART WITH 9;
+ALTER TABLE Customer ALTER COLUMN CustomerId RESTART WITH 60;
+ALTER TABLE Invoice ALTER COLUMN InvoiceId RESTART WITH 413;
+ALTER TABLE InvoiceLine ALTER COLUMN InvoiceLineId RESTART WITH 2241;
+ALTER TABLE Playlist ALTER COLUMN PlaylistId RESTART WITH 19;
