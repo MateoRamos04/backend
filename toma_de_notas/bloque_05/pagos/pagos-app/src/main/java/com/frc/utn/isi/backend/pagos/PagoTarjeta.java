@@ -4,7 +4,7 @@ public class PagoTarjeta extends Pago {
     private String tokenTarjeta;
     private String marcaTarjeta;
     private int cuotas;
-    private int interes;
+    private double interes;
 
     public PagoTarjeta(double monto, String idTransaccion, String tokenTarjeta, String marcaTarjeta, int cuotas) {
         super(monto, idTransaccion);
